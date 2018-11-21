@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aems4.projectnew">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Select" />
+        <activity android:name=".Midlocation" />
+        <activity android:name=".Northlocation" />
+        <activity android:name=".Southlocation" />
+        <activity android:name=".Westlocation" />
+        <activity android:name=".Midshop" />
+        <activity android:name=".Midtemple" />
+        <activity android:name=".Midmarket" />
+        <activity android:name=".Midpark" />
+        <activity android:name=".Midother" />
+        <activity android:name=".Northshop" />
+        <activity android:name=".Northpark" />
+        <activity android:name=".Northtemple" />
+        <activity android:name=".Northwaterfall" />
+        <activity android:name=".Southshop" />
+        <activity android:name=".Southmarket" />
+        <activity android:name=".Southisland" />
+        <activity android:name=".Southtemple" />
+        <activity android:name=".Southother" />
+        <activity android:name=".Westtemple" />
+        <activity android:name=".Westother" />
+        <activity android:name=".Westpark"></activity>
+    </application>
+
+</manifest>
